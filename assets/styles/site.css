@@ -131,3 +131,30 @@ ul.topnav li.right {
 .social-icon {
   margin: 20px 10px;
 }
+
+/*THUMBNAIL & MODAL*/
+.container {
+ width: 80%;
+ margin: 30px auto;
+ overflow: hidden;
+}
+
+.galleryItem {
+ float: left;
+ width: 29.333%;
+ margin:  2% 2% 50px 2%;
+}
+
+.galleryItem img {
+  max-width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.modalImg:hover {
+  opacity: 0.7;
+}
