@@ -210,3 +210,19 @@ ul.topnav li.right {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width : 720px),
+only screen and (max-device-width : 720px){
+	.galleryItem {
+    width: 50%;
+    margin:  2% 10% 50px 30%;
+  }
+}
